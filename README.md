@@ -37,7 +37,7 @@
 * [Snowpack](https://www.snowpack.dev/) frontend build tool, alternative to webpack or Parcel etc.
 * [Sveltejs/kit v3](https://kit.svelte.dev/) fast front-end UI library with small bundles of highly-optimized vanilla JavaScript & declarative transitions. Does not use a virtual DOM.
 * [rxjs](https://rxjs.dev/) Reactive Extensions JS library
-* [rxjs/ajax] used to fetch Github API observable
+* [rxjs/ajax](https://rxjs.dev/api/ajax/ajax) used to fetch Github API observable
 * [Github REST API v2](https://docs.github.com/en/rest/reference/users) RESTful API with data on all world countries. [Get a Github access token](https://github.com/settings/tokens) so API access not limited
 
 ## :floppy_disk: Setup
@@ -68,7 +68,7 @@
 
 ## :file_folder: License
 
-* N/A
+* This project is licensed under the terms of the MIT license.
 
 ## :envelope: Contact
 
