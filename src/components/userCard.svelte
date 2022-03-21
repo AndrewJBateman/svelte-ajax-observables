@@ -3,8 +3,8 @@
 </script>
 
 <main>
-  <p>Name: {$user.name}</p>
+  <p>Full Name: {$user.name}</p>
   <p>Bio: {$user.bio}</p>
-  <p>Number of repos: {$user.public_repos}</p>
+  <p>No. of repos: {$user.public_repos}</p>
   <p>Updated: {$user.updated_at}</p>
 </main>
