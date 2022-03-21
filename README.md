@@ -1,7 +1,6 @@
 # :zap: Svelte AJAX Observables
 
-* Sveltejs sandbox using RxJS
-* /AJX to fetch API observable data.
+* Sveltejs sandbox using RxJS/AJAX to fetch API observable data.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/svelte-ajax-observables?style=plastic)
@@ -56,7 +55,21 @@
 
 ## :computer: Code Examples
 
-* N/A
+* `userCard.svelte` with HTML that has been extended using Svelte-specific syntax.
+
+```svelte
+<main>
+  <h3>Github User Infomation</h3>
+  <UserCard {user} />
+  <br />
+  <h3>List of repos with links that contain 'svelte'</h3>
+  {#each $reposObservable as r}
+    <div>
+      <a href={r.url}>{r.name}</a>
+    </div>
+  {/each}
+</main>
+```
 
 ## :cool: Features
 
@@ -65,7 +78,7 @@
 ## :clipboard: Status & To-Do List
 
 * Status: Working
-* To-Do: Try out more rxjs methods
+* To-Do: Try out more RxJS methods
 
 ## :clap: Inspiration
 
