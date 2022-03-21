@@ -1,6 +1,7 @@
 # :zap: Svelte AJAX Observables
 
-* Sveltejs sandbox using Rxjs/ajax to fetch API observable data.
+* Sveltejs sandbox using RxJS
+* /AJX to fetch API observable data.
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/svelte-ajax-observables?style=plastic)
@@ -12,11 +13,13 @@
 
 * [:zap: Svelte AJAX Observables](#zap-svelte-ajax-observables)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
-  * [:books: General Info](#books-general-info)
+  * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:wrench: Testing](#wrench-testing)
   * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
   * [:file_folder: License](#file_folder-license)
@@ -36,15 +39,16 @@
 
 * [Snowpack](https://www.snowpack.dev/) frontend build tool, alternative to webpack or Parcel etc.
 * [Sveltejs/kit v3](https://kit.svelte.dev/) fast front-end UI library with small bundles of highly-optimized vanilla JavaScript & declarative transitions. Does not use a virtual DOM.
-* [rxjs](https://rxjs.dev/) Reactive Extensions JS library
-* [rxjs/ajax](https://rxjs.dev/api/ajax/ajax) used to fetch Github API observable
+* [RxJS](https://rxjs.dev/) Reactive Extensions JS library
+* [RxJS/AJAX](https://rxjs.dev/api/ajax/ajax) used to fetch Github API observable
 * [Github REST API v2](https://docs.github.com/en/rest/reference/users) RESTful API with data on all world countries. [Get a Github access token](https://github.com/settings/tokens) so API access not limited
 
 ## :floppy_disk: Setup
 
 * `npm i` to install dependencies
-* `npm start` to run dev server on port `localhost:8080`
+* `npm run dev` to run dev server on port `localhost:8080`. Note: I had to check `dev tools/network/Disable cache` to prevent caching and to see changes to files
 * `npm run build` to build a static copy of app to a `build/` folder
+* `npm run start` to run build files on port `localhost:8080`
 
 ## :wrench: Testing
 
@@ -64,7 +68,8 @@
 * To-Do: Try out more rxjs methods
 
 ## :clap: Inspiration
-* [Rxjs API list](https://rxjs.dev/api)
+
+* [RxJS API list](https://rxjs.dev/api)
 
 ## :file_folder: License
 
